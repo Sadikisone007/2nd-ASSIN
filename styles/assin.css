@@ -6,12 +6,29 @@
 .noto-serif-font {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
-  font-weight: 700px;
+  font-weight: 700;
   font-style: normal;
   font-size: 3rem;
   font-variation-settings:
     "wdth" 100;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.noto-serif-font1 {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  font-variation-settings:
+    "wdth" 100;
+    color:#000000;
+}
+
+
+
+
 
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
@@ -22,7 +39,7 @@
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font: weight normal;
+  font-weight:  normal;
   font-style: normal;
   font-size: 22px;
    color: rgba(0, 0, 0, 0.5);
@@ -75,4 +92,114 @@
 /* BANNER style */
 .banner{
     display: flex;
+}
+.hide{
+    visibility: hidden;
+}
+.bg{
+    background-color: #C8C8C8;
+}
+
+/* PLANT CONTAINER STYLE */
+
+.margin{
+    margin: 150px;
+}
+
+.plant-heading{
+    text-align: center;
+}
+
+.plant-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+
+}
+.flower img{
+    width: 100%;
+}
+.flower{
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.btn1{
+    background-color: #E95A08;
+    color: #C8C8C8;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 19px;
+    width: 100%;
+    border: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font1{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font: weight normal;
+  font-style: normal;
+  color: #C8C8C8;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font2{
+    
+
+     font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font: weight normal;
+  color: #111111;
+    font-weight: 700px;
+    font-size: 22px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font3{
+    
+
+     font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font: weight normal;
+  color: #111111;
+    font-weight: 400px;
+    font-size: 22px;
+}
+
+
+/* BADGE STYLE */
+.container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 576px) {
+    .plant-container{
+        grid-template-columns: repeat(2, 1fr);
+        width: 50%;
+    }
+    .plant-heading{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+    .banner{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 20%;
+
+    }
+    .navbar{
+
+    }
 }
