@@ -246,22 +246,59 @@
 
 
 /* FEATURE */
-.feature-card{
-    gap: 5px;
-}
 
-.features{
-    gap: 60px;
-}
-#trust-badge{
-    border: none;
-    margin-left: 310px;
-    margin-bottom:-300px;
-    padding: 45px 42px;
-    height: 0px;
-    width: 0px;
+
+.section {
+      display: flex;
+      justify-content: space-between;
+      padding: 40px;
+
+      
+    }
+
+    .image-container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+     
+    }
+
+    .image-container img {
+      width: 450px;
+      height: 450px;
+      
+    }
+
+    .badge {
+      position: absolute;
+      top: -250px;
+      left: 130px;
+     width: 1px;
+     height: auto;
+     
+
+    }
+
     
-}
+
+    .content {
+      margin-left: 40px;
+      max-width: 600px;
+    }
+
+    .content h1 {
+      font-size: 36px;
+      font-weight: bold;
+      
+    }
+
+    
+
+    .content ul li {
+      margin-bottom: 15px;
+      gap: 15px;
+    }
+
 
 /* img */
 .item{
