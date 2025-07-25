@@ -217,6 +217,21 @@
 }
 
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font5{
+    
+
+     font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font: weight normal;
+  color: rgba(0, 0, 0, 0.5);
+    font-weight: normal;
+    font-size: 22px;
+}
+
+
+
 /* BADGE STYLE */
 .container{
     display: flex;
@@ -339,6 +354,64 @@
       font-size: 16px;
      
     }
+
+    /* FOOTER */
+
+.foot{
+    padding: 50px 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-left{
+    max-width: 300px;
+}
+
+.footer-left img{
+    height: 82px;
+    width: 135px;
+    margin-bottom: 20px;
+}
+
+.footer-links{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 38px;
+    
+}
+.footer-links a{
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.footer-icons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
